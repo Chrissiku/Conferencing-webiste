@@ -117,6 +117,71 @@ header .menu-icon {
   left: 30px;
 }
 
+/* Main section */
+
+main .home {
+  background: url("../images/bg.jpg");
+}
+
+main .home .overlay {
+  background-color: rgba(255, 255, 255, 0.856);
+}
+
+main .home .overlay .content {
+  font-family: "lato", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  gap: 10px;
+  padding: 30px 20px 0 10px;
+  height: 100vh;
+  max-width: 500px;
+  color: #53555a;
+}
+
+main .home .overlay .content .quote {
+  color: #ec5242;
+  font-size: 25px;
+  padding-top: 10px;
+  font-weight: 400;
+}
+
+main .home .overlay .content h1 {
+  color: #ee210bb7;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 400;
+  background-image: url("../images/bg.jpg");
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+main .home .overlay .content .home-text {
+  border: 2px solid #fff;
+  padding: 10px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  letter-spacing: 1px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.301);
+}
+
+main .home .overlay .content .date {
+  font-family: "Arial Black", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+main .home .overlay .content .right {
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  line-height: 20px;
+}
+
 /* Media queries for desktop version */
 
 @media screen and (min-width: 768px) {
@@ -237,5 +302,51 @@ header .menu-icon {
 
   header .menu-icon {
     display: none;
+  }
+
+  /* Main section */
+
+  main .home .overlay .content {
+    font-family: "lato", sans-serif;
+    gap: 20px;
+    padding: 30px 0 0 50px;
+    max-width: 1200px;
+    height: 110vh;
+  }
+
+  main .home .overlay .content .quote {
+    color: #ec5242;
+    font-size: 40px;
+  }
+
+  main .home .overlay .content h1 {
+    color: #ee220b8f;
+    font-family: "Arial Black", sans-serif;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 400;
+    background-image: url("../images/bg.jpg");
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+
+  main .home .overlay .content .home-text {
+    padding: 20px;
+    max-width:600px ;
+  }
+
+  main .home .overlay .content .date {
+    font-family: "Arial Black", sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+  }
+
+  main .home .overlay .content .right {
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    line-height: 20px;
   }
 }
