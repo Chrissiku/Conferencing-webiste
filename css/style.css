@@ -9,8 +9,7 @@
 }
 
 header .info-bar,
-header .brand,
-header .menu {
+header .main-menu {
   display: none;
 }
 header .menu-icon {
@@ -29,21 +28,17 @@ header .menu-icon i {
 
 @media screen and (min-width: 768px) {
   header {
-    border: 1px solid red;
+    /* position: fixed; 
+     width: 100%; */
     display: flex;
     flex-direction: column;
-  }
-
-  header .info-bar,
-  header .brand,
-  header .menu {
-    display: block;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background: rgb(238, 232, 232);
   }
 
   header .info-bar {
     display: flex;
     justify-content: end;
-    border: 1px solid green;
     background: #272a31;
     padding: 3px 0;
     font-family: "Lato", sans-serif;
@@ -56,16 +51,74 @@ header .menu-icon i {
     justify-content: space-between;
     gap: 20px;
     align-items: center;
-    margin-right: 100px;
+    margin-right: 150px;
   }
 
   header .info-bar ul li a {
-      font-size: 16px;
+    font-size: 16px;
     color: #fff;
   }
 
-  header .info-bar ul li a:hover{
-      color: #ec5242;
+  header .info-bar ul li a:hover {
+    color: #ec5242;
+  }
+
+  header .main-menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px 0;
+  }
+
+  header .main-menu .brand a img {
+    width: 200px;
+  }
+
+  header .main-menu .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+  }
+
+  header .main-menu .menu ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+  }
+
+  header .main-menu .menu ul li a.active {
+    color: #ec5242;
+    font-weight: 500;
+  }
+
+  header .main-menu .menu ul li a {
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    line-height: 20px;
+    color: #272a31;
+    letter-spacing: 1px;
+  }
+
+  header .main-menu .menu ul li a:hover {
+    font-weight: 500;
+    color: #ec5242;
+  }
+
+  header .main-menu .menu .btn {
+    padding: 5px 30px;
+    background-color: none;
+    border: 3px solid #ec5242;
+    color: #ec5242;
+  }
+
+  header .main-menu .menu .btn:hover {
+    padding: 5px 30px;
+    background-color: none;
+    background-color: #4b4d50ab;
+    color: #fff;
   }
 
   header .menu-icon {
