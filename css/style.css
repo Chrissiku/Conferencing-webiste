@@ -132,7 +132,6 @@ main .home .overlay .content {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: left;
   gap: 10px;
   padding: 30px 20px 0 10px;
   height: 100vh;
@@ -153,10 +152,8 @@ main .home .overlay .content h1 {
   font-weight: 500;
   font-size: 40px;
   line-height: 40px;
-  font-weight: 400;
   background-image: url("../images/bg.jpg");
   background-size: cover;
-  background-clip: text;
   -webkit-background-clip: text;
 }
 
@@ -325,16 +322,14 @@ main .home .overlay .content .right {
     font-weight: 500;
     font-size: 60px;
     line-height: 60px;
-    font-weight: 400;
     background-image: url("../images/bg.jpg");
     background-size: cover;
-    background-clip: text;
     -webkit-background-clip: text;
   }
 
   main .home .overlay .content .home-text {
     padding: 20px;
-    max-width:600px ;
+    max-width: 600px;
   }
 
   main .home .overlay .content .date {
