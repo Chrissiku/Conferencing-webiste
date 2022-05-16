@@ -30,9 +30,11 @@ header .main-header nav {
   0% {
     transform: scaleY(0);
   }
+
   80% {
     transform: scaleY(1.1);
   }
+
   100% {
     transform: scaleY(1);
   }
@@ -78,20 +80,28 @@ header .main-header nav .menu .btn {
   padding: 10px 30px;
 }
 
+header .menu-icon i {
+  font-size: 30px;
+  font-weight: bold;
+  color: #272a31;
+}
+
 header .main-header nav .menu .btn i {
   animation: infinite 2s bounce;
 }
 
 @keyframes bounce {
   0% {
-    transform: translateX(0px);
+    transform: translateX(0);
   }
+
   40% {
     transform: translateX(-20px);
   }
+
   80%,
   100% {
-    transform: translateX(0px);
+    transform: translateX(0);
   }
 }
 
@@ -105,12 +115,6 @@ header .menu-icon {
   position: fixed;
   top: 30px;
   left: 30px;
-}
-
-header .menu-icon i {
-  font-size: 30px;
-  font-weight: bold;
-  color: #272a31;
 }
 
 /* Media queries for desktop version */
@@ -144,13 +148,9 @@ header .menu-icon i {
 
   header .info-bar ul li a {
     color: #fff;
-    font-family: "Lato";
+    font-family: "Lato", sans-serif;
     font-weight: 300;
     font-size: 15px;
-  }
-
-  header .info-bar ul li a:hover {
-    color: #ec5242;
   }
 
   header .info-bar ul li a:hover {
@@ -198,7 +198,6 @@ header .menu-icon i {
   header .main-header nav .menu ul li {
     padding: 0;
     width: inherit;
-    text-align: none;
   }
 
   header .main-header nav .menu ul li:hover {
@@ -234,10 +233,6 @@ header .menu-icon i {
     border: 3px solid #272a31;
     padding: 10px 20px;
     background-color: #ec5242;
-  }
-
-  header .main-header {
-    display: flex;
   }
 
   header .menu-icon {
