@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Roboto:wght@300;400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+header .info-bar,
+header .brand,
+header .menu {
+  display: none;
+}
+header .menu-icon {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+}
+
+header .menu-icon i {
+  font-size: 30px;
+  font-weight: bold;
+  color: #272a31;
+}
+
+/* Media queries for desktop version */
+
+@media screen and (min-width: 768px) {
+  header {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+  }
+
+  header .info-bar,
+  header .brand,
+  header .menu {
+    display: block;
+  }
+
+  header .info-bar {
+    display: flex;
+    justify-content: end;
+    border: 1px solid green;
+    background: #272a31;
+    padding: 3px 0;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    line-height: 24px;
+  }
+
+  header .info-bar ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    margin-right: 100px;
+  }
+
+  header .info-bar ul li a {
+      font-size: 16px;
+    color: #fff;
+  }
+
+  header .info-bar ul li a:hover{
+      color: #ec5242;
+  }
+
+  header .menu-icon {
+    display: none;
+  }
+}
