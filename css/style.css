@@ -8,10 +8,6 @@
   list-style: none;
 }
 
-header {
-  /* border: 3px solid red; */
-}
-
 header .info-bar,
 header .brand {
   display: none;
@@ -78,6 +74,7 @@ header .main-header nav .menu .btn {
   color: #fff;
   border: 3px solid #ec5242;
   font-size: 20px;
+  font-family: "Roboto", sans-serif;
   padding: 10px 30px;
 }
 
@@ -119,4 +116,131 @@ header .menu-icon i {
 /* Media queries for desktop version */
 
 @media screen and (min-width: 768px) {
+  header {
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
+  }
+
+  header .info-bar {
+    display: block;
+    background: #272a31;
+  }
+
+  header .info-bar ul {
+    display: flex;
+    justify-content: right;
+    margin: 0 120px;
+    gap: 20px;
+    padding: 5px;
+  }
+
+  header .info-bar ul li {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    color: #fff;
+  }
+
+  header .info-bar ul li a {
+    color: #fff;
+    font-family: "Lato";
+    font-weight: 300;
+    font-size: 15px;
+  }
+
+  header .info-bar ul li a:hover {
+    color: #ec5242;
+  }
+
+  header .info-bar ul li a:hover {
+    color: #ec5242;
+  }
+
+  header .main-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+  }
+
+  header .main-header .brand {
+    display: block;
+  }
+
+  header .main-header .brand a img {
+    width: 200px;
+  }
+
+  header .main-header nav {
+    display: block;
+    position: relative;
+    background: none;
+    animation: none;
+  }
+
+  header .main-header nav .menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    margin: 0;
+  }
+
+  header .main-header nav .menu ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    margin-right: 10px;
+  }
+
+  header .main-header nav .menu ul li {
+    padding: 0;
+    width: inherit;
+    text-align: none;
+  }
+
+  header .main-header nav .menu ul li:hover {
+    background: none;
+  }
+
+  header .main-header nav .menu ul li a {
+    font-size: 15px;
+    font-weight: 400;
+    color: #000;
+  }
+
+  header .main-header nav .menu ul li a:hover,
+  header .main-header nav .menu ul li a.active {
+    color: #ec5242;
+    font-weight: 500;
+  }
+
+  header .main-header nav .menu .btn {
+    color: #ec5242;
+    border: 3px solid #ec5242;
+    font-size: 15px;
+    padding: 10px 20px;
+  }
+
+  header .main-header nav .menu .btn i {
+    display: none;
+    animation: none;
+  }
+
+  header .main-header nav .menu .btn:hover {
+    color: #fff;
+    border: 3px solid #272a31;
+    padding: 10px 20px;
+    background-color: #ec5242;
+  }
+
+  header .main-header {
+    display: flex;
+  }
+
+  header .menu-icon {
+    display: none;
+  }
 }
