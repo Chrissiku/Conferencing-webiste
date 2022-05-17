@@ -179,6 +179,90 @@ main .home .overlay .content .right {
   line-height: 20px;
 }
 
+/* Program section */
+
+section.program {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  background-image: url("../images/bg_program.PNG");
+  padding: 60px 10px 60px 10px;
+}
+
+section.program .program-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+section.program .title {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  color: #fff;
+}
+
+section.program .title h2 {
+  font-family: "Lato", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+section.program .title .line {
+  border: 1px solid #ec5242;
+  width: 40%;
+}
+
+section.program .program-content .program-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  background-color: rgba(255, 255, 255, 0.103);
+  padding: 15px;
+  font-family: "Lato";
+}
+
+section.program .program-content .program-card span i {
+  font-size: 40px;
+  color: #fff;
+}
+
+section.program .program-content .program-card h3 {
+  font-size: 23px;
+  color: #ec5242;
+}
+
+section.program .program-content .program-card p {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #fff;
+}
+
+section.program .btn {
+  padding: 20px 50px;
+  color: #fff;
+  background: #f04835;
+  border: none;
+  font-size: 18px;
+  transition: all 0.5s ease-in-out;
+}
+
+section.program .btn:hover {
+  padding: 20px 50px;
+  color: #f04835;
+  background: #fff;
+  border: 3px solid #f04835;
+  font-size: 18px;
+}
+
 /* Media queries for desktop version */
 
 @media screen and (min-width: 768px) {
