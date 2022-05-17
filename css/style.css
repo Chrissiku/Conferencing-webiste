@@ -7,6 +7,7 @@
   text-decoration: none;
   list-style: none;
 }
+
 header {
   z-index: 1;
 }
@@ -76,6 +77,23 @@ header .main-header nav .menu ul li a.active {
   color: #ec5242;
 }
 
+section.program .btn {
+  padding: 20px 50px;
+  color: #fff;
+  background: #f04835;
+  border: none;
+  font-size: 18px;
+  transition: all 0.5s ease-in-out;
+}
+
+section.program .btn:hover {
+  padding: 20px 50px;
+  color: #f04835;
+  background: #fff;
+  border: 3px solid #f04835;
+  font-size: 18px;
+}
+
 header .main-header nav .menu .btn {
   color: #fff;
   border: 3px solid #ec5242;
@@ -89,6 +107,14 @@ header .menu-icon i {
   font-weight: bold;
   color: #272a31;
   z-index: inherit;
+}
+
+section.speakers button i {
+  color: #ec5242;
+}
+
+section.speakers button:hover > i {
+  color: #fff;
 }
 
 header .main-header nav .menu .btn i {
@@ -234,7 +260,7 @@ section.program .program-content .program-card {
   gap: 20px;
   background-color: rgba(255, 255, 255, 0.103);
   padding: 10px;
-  font-family: "Lato";
+  font-family: "Lato", sans-serif;
   transition: all 0.3s ease-in-out;
 }
 
@@ -258,23 +284,6 @@ section.program .program-content .program-card p {
   font-weight: 500;
   line-height: 20px;
   color: #fff;
-}
-
-section.program .btn {
-  padding: 20px 50px;
-  color: #fff;
-  background: #f04835;
-  border: none;
-  font-size: 18px;
-  transition: all 0.5s ease-in-out;
-}
-
-section.program .btn:hover {
-  padding: 20px 50px;
-  color: #f04835;
-  background: #fff;
-  border: 3px solid #f04835;
-  font-size: 18px;
 }
 
 section.program .btn1 {
@@ -338,8 +347,7 @@ section.speakers .speaker-content .speaker-card .bio {
 section.speakers .speaker-content .speaker-card .bio h3 {
   font-size: 20px;
   font-family: "Lato", sans-serif;
-  font-style: bold;
-  list-style: 28px;
+  line-height: 28px;
 }
 
 section.speakers .speaker-content .speaker-card .bio .speaker-bio {
@@ -378,13 +386,7 @@ section.speakers button:hover {
   color: #fff;
   background: #ec5242;
 }
-section.speakers button:hover > i {
-  color: #fff;
-}
 
-section.speakers button i {
-  color: #ec5242;
-}
 /* Media queries for desktop version */
 
 @media screen and (min-width: 768px) {
@@ -485,6 +487,10 @@ section.speakers button i {
     font-weight: 500;
   }
 
+  section.program .btn {
+    display: none;
+  }
+
   header .main-header nav .menu .btn {
     color: #ec5242;
     border: 3px solid #ec5242;
@@ -581,7 +587,7 @@ section.speakers button i {
     gap: 20px;
     background-color: rgba(255, 255, 255, 0.103);
     padding: 15px;
-    font-family: "Lato";
+    font-family: "Lato", sans-serif;
     transition: all 0.5s ease;
     max-height: 270px;
   }
@@ -607,10 +613,6 @@ section.speakers button i {
     font-weight: 500;
     line-height: 20px;
     color: #fff;
-  }
-
-  section.program .btn {
-    display: none;
   }
 
   section.program .btn1 {
