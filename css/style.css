@@ -225,7 +225,7 @@ section.program .program-content .program-card {
   align-items: center;
   gap: 20px;
   background-color: rgba(255, 255, 255, 0.103);
-  padding: 15px;
+  padding: 10px;
   font-family: "Lato";
   transition: all 0.3s ease-in-out;
 }
@@ -242,6 +242,7 @@ section.program .program-content .program-card span i {
 section.program .program-content .program-card h3 {
   font-size: 23px;
   color: #ec5242;
+  min-width: 100px;
 }
 
 section.program .program-content .program-card p {
@@ -491,6 +492,7 @@ section.program .btn1 {
     padding: 15px;
     font-family: "Lato";
     transition: all 0.5s ease;
+    max-height: 270px;
   }
 
   section.program .program-content .program-card:hover {
@@ -503,7 +505,8 @@ section.program .btn1 {
   }
 
   section.program .program-content .program-card h3 {
-    font-size: 23px;
+    font-size: 18px;
+    text-align: center;
     color: #ec5242;
   }
 
