@@ -7,6 +7,8 @@
 >
 > In order to achieve this activity I used some resources and technologies listed below : 
 
+## Here is the screen shoot of the project
+![screen](https://user-images.githubusercontent.com/101924220/169167327-1be8919e-2bda-4006-8efe-1d12850dc485.PNG)
 
 ## Built With
 
