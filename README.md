@@ -1,56 +1,64 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Project Name : Coder international summit
 
-> Description the project.
+> This is my fist capstone project for the end module one in `Microverse` program. Note that this website is based on an online website for a conference. `Microverse` provide some design guidelines for me to create this website, but I personalize the content to be `coder interational summit` that is internation summit of all code writers (designers, developers,..) and happens each 2 years.
+> - Note yet avialable on the web.
+>
+> In order to achieve this activity I used some resources and technologies listed below : 
 
+## Here is the screen shoot of the project
+![screen](https://user-images.githubusercontent.com/101924220/169167327-1be8919e-2bda-4006-8efe-1d12850dc485.PNG)
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- Major languages : HTMl & CSS, JavaScript
+- Frameworks : none
+- Technologies used : Github, Git and Linters
 
-## Live Demo (if available)
+## Live Demo (No available)
 
-[Live Demo Link](https://livedemo.com)
+> Click here for the [demo](https://chrissiku.github.io/capstone_project_one/)
 
+## Link to Loom Video
+ Loom video [here](https://www.loom.com/share/5118fef878894e43a42dacd8e04a161c)
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
+### Prerequisites ♻️
+- A personal computer connected to the internet;
+- Have a working and updated browser.
+- Have a local version control like git installed on your computer
+- Have an account on Github, as an online/remote Version Control System
+- Code editor (Visual studio code, sublime text, notepad++, ...) installed on your computer;
+- At least basic of HTML and CSS.
 
-### Setup
+### Setup 🎰
+-  Click the [me](https://github.com/Chrissiku/capstone_project_one/) and you'll land on the pure repository;
+-  click on the green (🟢) button with `Code` Inscription;
+-  You can choose to download the project or just clone it if you are familiar with Git and Github;
+-  Follow normal step once download in your computer and use it as it's yours.
 
-### Install
+### Install 
+- If you are familiar with git, Run `npm install` to get all dependecies required to run the linters checks, otherwise use the downloaded project on your computer without testing files
 
-### Usage
+### Run test 🧪
+> Run thes command bellow inside your `git bash` or command line interface.
+- `npx hint .` : for the `html` codebase and use of best practices.
+- `npx stylelint "**/*.{css,scss}"` :  for the `css` codebase and use of best practices. you can add 
+- `npx eslint .` :  for the `JavaScript` codebase and use of best practices.
+-  > Note that you can add `--fix` keyword to the command for `Css` and/or `JavaScript` to make sure that you avoid all errors comming from your `code editor`
 
-### Run tests
 
-### Deployment
+## Author
 
+👤 **Chris Siku (Main Author)**
 
-
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/Chrissiku)
+- Twitter: [@twitterhandle](https://twitter.com/christian_siku)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/chris-siku-4bb53b232/)
 
 ## 🤝 Contributing
 
@@ -63,10 +71,9 @@ Feel free to check the [issues page](../../issues/).
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Microverse
+- Inspired by [Cindy Shin](https://www.behance.net/adagio07) the author of the original design.
+- Hat tip to anyone whose code was used.
 
 ## 📝 License
 
