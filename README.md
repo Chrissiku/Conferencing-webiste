@@ -16,7 +16,7 @@
 
 ## Live Demo (No available)
 
-> The live demonstration of this project will be avaialable as soon a possible after `Microverse`'s approval of this project 
+> Click here for the [demo](https://chrissiku.github.io/capstone_project_one/)
 
 ## Link to Loom Video
  Loom video [here](https://www.loom.com/share/5118fef878894e43a42dacd8e04a161c)
