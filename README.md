@@ -8,7 +8,11 @@
 > In order to achieve this activity I used some resources and technologies listed below : 
 
 ## Here is the screen shoot of the project
-![screen](https://user-images.githubusercontent.com/101924220/169167327-1be8919e-2bda-4006-8efe-1d12850dc485.PNG)
+<!-- ![screen](https://user-images.githubusercontent.com/101924220/169167327-1be8919e-2bda-4006-8efe-1d12850dc485.PNG) -->
+
+| On Desktop                                                                                                                                                                 | On Mobile                                                                                                                                                                 |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <img width="800" alt="Desktop version of the project" src="https://user-images.githubusercontent.com/101924220/169167327-1be8919e-2bda-4006-8efe-1d12850dc485.PNG"> | <img width="320" alt="Screenshot 2022-05-15 at 23 27 28" src="https://user-images.githubusercontent.com/101924220/169225155-2b7f8b7c-0ab1-442a-8ecb-10b894e79ea5.PNG"> |
 
 ## Built With
 
@@ -59,6 +63,8 @@ To get a local copy up and running follow these simple example steps.
 - GitHub: [@githubhandle](https://github.com/Chrissiku)
 - Twitter: [@twitterhandle](https://twitter.com/christian_siku)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/chris-siku-4bb53b232/)
+
+![Chris Siku's GitHub stats](https://github-readme-stats.vercel.app/api?username=Chrissiku&count_private=true&theme=dark&show_icons=true)
 
 ## 🤝 Contributing
 
