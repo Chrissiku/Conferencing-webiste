@@ -22,7 +22,7 @@
 
 ## Live Demo (No available)
 
-> Click here for the [demo](https://chrissiku.github.io/capstone_project_one/)
+> Click here for the [demo](https://chrissiku.github.io/Conferencing-webiste/)
 
 ## Link to Loom Video
  Loom video [here](https://www.loom.com/share/5118fef878894e43a42dacd8e04a161c)
