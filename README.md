@@ -40,7 +40,7 @@ To get a local copy up and running follow these simple example steps.
 - At least basic of HTML and CSS.
 
 ### Setup 🎰
--  Click the [me](https://github.com/Chrissiku/capstone_project_one/) and you'll land on the pure repository;
+-  Click the [me](https://github.com/Chrissiku/Conferencing-webiste) and you'll land on the pure repository;
 -  click on the green (🟢) button with `Code` Inscription;
 -  You can choose to download the project or just clone it if you are familiar with Git and Github;
 -  Follow normal step once download in your computer and use it as it's yours.
