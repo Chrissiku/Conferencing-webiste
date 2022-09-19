@@ -2,8 +2,8 @@
 
 # Project Name : Coder international summit
 
-> This is my fist capstone project for the end module one in `Microverse` program. Note that this website is based on an online website for a conference. `Microverse` provide some design guidelines for me to create this website, but I personalize the content to be `coder interational summit` that is internation summit of all code writers (designers, developers,..) and happens each 2 years.
-> - Note yet avialable on the web.
+> This website is based on an online website for a conference. This Coder international summit concerns all writings of international coders (backend developers, frontend developers, full-datck developers,...). Is a summit that takes place every 2 years and they can meet to share updates on technology trends (web technology).
+> - Note that this project is not yet hosted and is for education purpose.
 >
 > In order to achieve this activity I used some resources and technologies listed below : 
 
@@ -16,9 +16,9 @@
 
 ## Built With
 
-- Major languages : HTMl & CSS, JavaScript
+- Major languages : `HTML5` & `CSS3` and `JavaScript`
 - Frameworks : none
-- Technologies used : Github, Git and Linters
+- Technologies used : `Github`, `Gitflows`, `Git` and `Linters`
 
 ## Live Demo (No available)
 
@@ -63,8 +63,6 @@ To get a local copy up and running follow these simple example steps.
 - GitHub: [@githubhandle](https://github.com/Chrissiku)
 - Twitter: [@twitterhandle](https://twitter.com/christian_siku)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/chris-siku-4bb53b232/)
-
-![Chris Siku's GitHub stats](https://github-readme-stats.vercel.app/api?username=Chrissiku&count_private=true&theme=dark&show_icons=true)
 
 ## 🤝 Contributing
 
